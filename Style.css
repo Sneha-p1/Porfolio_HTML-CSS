@@ -1,0 +1,140 @@
+.textStyle{
+    text-align: center;
+    font-size: 16px; font-family: Arial, Helvetica, sans-serif;
+  }
+
+    p{
+        font-size: 19px;
+        text-align: justify;
+    }
+    li{
+      font-weight: bold;
+      font-size: 19px;
+    }
+  body{
+    background-color: #f0f0f0;
+      background-image: linear-gradient(to bottom right, #ffcccc, #a044fc );
+      background-size: cover;
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+  }
+  .Dp{
+    width: 160px;
+    border-radius: 15px;
+  }
+  .table1{
+    border-width: 1px;
+    width: 50%;
+    padding: 15px;
+    border-spacing: 5px;
+
+  }
+
+  .navBar{
+    display: flex;
+    list-style-type:none;
+    padding: 15px;
+    gap: 30px;
+    float: right;
+    text-decoration: none;
+    align-items: right;
+       }
+
+    .navBar li{ list-style-type: none;
+                float: left;
+               
+              }
+        .navBar a{
+            gap: 50px;
+            text-decoration: none;
+            padding-left: 20px;
+            color: rgb(14, 13, 13);
+        }
+
+        .row{
+          width: 80%;
+          height: 200px;
+          float:left;
+          padding: 5px;
+          
+      }
+      .row::after{
+        content: " ";
+        display: table;
+        clear: both;
+      }
+
+
+
+      .portfolio-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+      }
+      
+      .portfolio-image {
+        flex: 0 0 auto;
+        margin-right: 20px;
+        width: 150px;
+        height: auto; 
+      }
+      
+      .portfolio-text {
+        flex: 1;
+      }
+      
+      .portfolio-text h2 {
+        font-size: 35px;
+        margin-bottom:30px;
+        color:#c06a3c;
+        text-shadow: 2px 2px 2px rgb(6, 80, 80);
+      }
+
+      .portfolio-text h3 {
+        font-size: 30px;
+        margin-bottom:  30px;
+        color: #be7046;
+        text-shadow: 2px 2px 2px rgb(6, 80, 80);
+      }
+     a:hover{
+      color: rgb(255, 255, 255);
+     }
+     
+     .box{
+      width: 500px;
+      height: 120px;
+      background-color: rgb(223, 200, 245);
+      text-align: center;
+      border-radius: 50px;
+      align-items: center;
+      margin: 2px;
+      position: relative;
+      top: 30px;
+      left:50px;
+  }
+ .box2{
+      width: 300px;
+      height: 120px;
+      background-color: rgb(223, 200, 245);
+      text-align: center;
+      border-radius: 30px;
+      margin: auto;
+      align-items: center;
+      position: relative;
+      
+ }
+  @media only screen and (max-width:800px){
+    .navBar{
+       text-align: center;
+       float: none;
+    }
+    .Dp{
+      width: 80px;
+    }
+  
+  }
+  .bta:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(89, 204, 250);
+  }
